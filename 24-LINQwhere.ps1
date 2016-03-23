@@ -1,0 +1,1 @@
+﻿Get-ChildItem | Where-Object {$_.Attributes -eq [System.IO.FileAttributes]::Directory}

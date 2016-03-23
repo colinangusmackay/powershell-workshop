@@ -1,0 +1,1 @@
+﻿Get-ChildItem | Sort-Object {$_.Length} -Descending
